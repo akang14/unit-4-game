@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <body background="./assets/images/stripes-light.png"></body>
+    
+</head>
+
+<body>
+
+    <h1 id= header>Crystal Collector!</h1>
+    <div class="info">
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your
+            total score.</p>
+        <p>You win the game by matching your total score to random number, you lose the game if your total score goes
+            above the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+    </div>
+    <div class="score">
+        Wins:
+        <p id="wins"></p>
+        Losses:
+        <p id="loss"></p>
+        <div class="total">
+                <h2>Your final score is:</h2>
+                <h2 id="final">0</h2>
+            </div>
+        
+            <div class="number">
+                <h1 id="random"></h1>
+    </div>
+    <div class="row">
+        <div class="column">
+        <div id="one">
+            <button class="btn"><img src="./assets/images/bluec.jpeg" style="width:100%"></button>
+        </div>
+        </div>
+        <div class="column">
+        <div id="two">
+            <button class="btn"><img src="./assets/images/redc.jpeg"></button>
+        </div>
+        </div>
+        <div class="column">
+        <div id="three">
+            <button class="btn"><img src="./assets/images/yellowc.jpeg"></button>
+        </div>
+        </div>
+        <div class="column">
+        <div id="four">
+            <button class="btn"><img src="./assets/images/purplec.jpeg"></button>
+        </div>
+        </div>
+    </div>
+</div>
+    
+   
+        
+    </div>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+    <script src="./assets/javascript/game.js"></script>
+
+
+</body>
+
+</html>
